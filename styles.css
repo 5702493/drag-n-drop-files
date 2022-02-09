@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.drop-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  padding: 16px;
+  font-size: 18px;
+  border: 2px dashed lightgrey;
+  border-radius: 8px;
+}
+
+.file-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.file-item {
+  display: flex;
+  margin: 16px 0;
+  padding: 16px;
+  border: 2px solid lightgrey;
+  border-radius: 8px;
+}
+
+.file-name {
+  flex-grow: 1;
+  padding-right: 8px;
+  word-break: break-word;
+  word-wrap: break-word;
+}
